@@ -1,0 +1,135 @@
+/* small screen */
+.container {
+  background-color: #f8f8f8;
+  padding: 3 rem 4 rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.AddCovidForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.AddCovidForm__right {
+  margin-bottom: 1rem;
+}
+
+.AddCovidForm__title {
+  color: #06D6A0;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.AddCovidForm__prov {
+  margin-bottom: 1rem;
+  color: #64748b;
+}
+
+
+.AddCovidForm__form {
+  margin-bottom: 1rem;
+
+}
+
+
+.AddCovidForm__status {
+  margin-bottom: 1rem;
+  color: #64748b;
+  margin-top: 20px;
+
+}
+
+
+.AddCovidForm__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.AddCovidForm__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6rem 4rem;
+  border-radius: 10px;
+  color: black;
+  margin-top: 20px;
+  border-color: #06D6A0;
+  border-width: 3px;
+  width: 350px;
+}
+
+.AddCovidForm__inputJumlah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6rem 4rem;
+  border-radius: 10px;
+  color: black;
+  margin-top: 20px;
+  border-color: #06D6A0;
+  border-width: 3px;
+  width: 215px;
+}
+
+.AddCovidForm__jumlah {
+  margin-bottom: 1rem;
+  color: #64748b;
+  margin-top: 20px;
+}
+
+.AddCovidForm__submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6rem 4rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #06D6A0;
+  margin-top: 20px;
+  width: 350px;
+}
+
+.AddCovidForm__inputSubmit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6rem 4rem;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  width: 220px;
+  border-color: #06D6A0;
+  border-width: 3px;
+  width: 350px;
+  background-color: #06D6A0;
+}
+
+
+/* Medium Screen */
+@media (min-width: 768px) {}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+    margin: 3rem auto;
+  }
+
+  .AddCovidForm {
+    margin: 0 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .AddCovidForm__left {
+    flex-basis: 60%;
+  }
+
+  .AddCovidForm__right {
+    flex-basis: 40%;
+  }
+}

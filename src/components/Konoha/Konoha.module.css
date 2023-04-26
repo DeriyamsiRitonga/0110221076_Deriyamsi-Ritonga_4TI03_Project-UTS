@@ -1,0 +1,28 @@
+.card {
+    box-shadow: 2px 2px 5px grey;
+    width: 100%;
+    margin: auto 1rem;
+    transition: 0.3s;
+    padding: 3rem 3rem;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+    /* Nothing */
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+    .container {
+        text-align: center;
+    }
+
+    .card__judul {
+        display: flex;
+        flex-direction: row;
+            }
+
+}
